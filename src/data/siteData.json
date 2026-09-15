@@ -1,0 +1,1186 @@
+{
+  "pillars": [
+    {
+      "id": "build",
+      "no": "01",
+      "title": "Technology & Development",
+      "label": "BUILD",
+      "copy": "Websites, SaaS, mobile apps, AI products, e-commerce and custom software engineered around real business workflows.",
+      "items": [
+        "Web & SaaS",
+        "Mobile apps",
+        "AI products",
+        "E-commerce",
+        "Custom software",
+        "Games"
+      ]
+    },
+    {
+      "id": "design",
+      "no": "02",
+      "title": "Creative & Design",
+      "label": "DESIGN",
+      "copy": "Brand systems and product experiences that make businesses look credible, clear and memorable across every touchpoint.",
+      "items": [
+        "Brand identity",
+        "Graphic design",
+        "UI/UX",
+        "Motion",
+        "Video",
+        "Creative systems"
+      ]
+    },
+    {
+      "id": "automate",
+      "no": "03",
+      "title": "Business & Digital Solutions",
+      "label": "AUTOMATE",
+      "copy": "AI agents, dashboards, portals, integrations and automation that remove repetitive work and make operations easier to run.",
+      "items": [
+        "AI agents",
+        "Automation",
+        "Dashboards",
+        "CRM / ERP",
+        "Integrations",
+        "Portals"
+      ]
+    },
+    {
+      "id": "grow",
+      "no": "04",
+      "title": "Digital Marketing & Growth",
+      "label": "GROW",
+      "copy": "SEO, paid media, social, content and conversion systems connected to the digital products we build.",
+      "items": [
+        "SEO",
+        "Social media",
+        "Paid ads",
+        "Content",
+        "E-commerce growth",
+        "Analytics"
+      ]
+    }
+  ],
+  "services": {
+    "web-development": {
+      "title": "Web Development",
+      "pillar": "Technology & Development",
+      "kicker": "Web systems that earn their keep",
+      "heading": "Websites engineered for business, not just browsers.",
+      "description": "Custom websites, portals and web applications built for speed, clarity, conversion and long-term maintainability.",
+      "summary": "From lean marketing sites to authenticated platforms, we design the right architecture for the job and keep performance at the center.",
+      "outcomes": [
+        "Faster, clearer customer journeys",
+        "Responsive interfaces across real devices",
+        "Architecture that is easier to maintain and extend",
+        "SEO-ready structure and technical foundations"
+      ],
+      "deliverables": [
+        "Business & corporate websites",
+        "Landing pages",
+        "Web applications",
+        "Membership & booking platforms",
+        "Customer portals",
+        "Custom integrations"
+      ],
+      "stack": [
+        "PHP",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Node.js",
+        "Python",
+        "C# / Java",
+        "WordPress",
+        "Wix",
+        "Odoo"
+      ],
+      "related": [
+        "saas-development",
+        "ecommerce-development",
+        "ui-ux-design"
+      ]
+    },
+    "saas-development": {
+      "title": "SaaS Development",
+      "pillar": "Technology & Development",
+      "kicker": "From product idea to recurring software",
+      "heading": "Turn a SaaS idea into a product people can actually use.",
+      "description": "End-to-end SaaS product development covering product flows, user systems, billing, APIs, dashboards, analytics and cloud deployment.",
+      "summary": "We shape the MVP around the riskiest assumptions first, then build a foundation that can grow without becoming a rewrite project.",
+      "outcomes": [
+        "A focused MVP with a clear product path",
+        "Secure authentication and user management",
+        "Subscription and billing workflows",
+        "Analytics, notifications and integrations"
+      ],
+      "deliverables": [
+        "SaaS MVPs",
+        "Multi-user applications",
+        "Admin systems",
+        "Subscription products",
+        "APIs & databases",
+        "Cloud deployment"
+      ],
+      "stack": [
+        "React / Next.js",
+        "Node.js",
+        "PHP",
+        "Python",
+        "PostgreSQL",
+        "REST / APIs",
+        "Stripe-ready architecture",
+        "Cloud"
+      ],
+      "related": [
+        "web-development",
+        "custom-software-development",
+        "ai-development"
+      ]
+    },
+    "mobile-app-development": {
+      "title": "Mobile App Development",
+      "pillar": "Technology & Development",
+      "kicker": "Native feel, practical architecture",
+      "heading": "Mobile products designed for the way people actually use phones.",
+      "description": "Native and cross-platform mobile applications for iOS and Android, from consumer products to operational business tools.",
+      "summary": "We connect product flows, interface design and engineering so the app feels coherent from onboarding through daily use.",
+      "outcomes": [
+        "Clear mobile-first user journeys",
+        "Responsive, touch-friendly interfaces",
+        "Reliable API and backend integration",
+        "A practical launch and iteration path"
+      ],
+      "deliverables": [
+        "iOS apps",
+        "Android apps",
+        "Cross-platform apps",
+        "Business apps",
+        "E-commerce apps",
+        "Booking & utility apps"
+      ],
+      "stack": [
+        "Swift",
+        "SwiftUI",
+        "Java",
+        "Flutter",
+        "React Native",
+        "Firebase",
+        "REST APIs"
+      ],
+      "related": [
+        "ui-ux-design",
+        "saas-development",
+        "custom-software-development"
+      ]
+    },
+    "ai-development": {
+      "title": "AI Development",
+      "pillar": "Technology & Development",
+      "kicker": "Useful AI, built into real workflows",
+      "heading": "AI products that do a job—not AI for the slide deck.",
+      "description": "AI applications, assistants, intelligent search and knowledge systems designed around measurable business use cases.",
+      "summary": "We start with the workflow and desired outcome, then choose the model, retrieval and integration approach that makes sense.",
+      "outcomes": [
+        "AI embedded where it saves time or improves service",
+        "Grounded responses with business context",
+        "Interfaces designed for human review and control",
+        "Architecture that can evolve with models"
+      ],
+      "deliverables": [
+        "AI applications",
+        "AI assistants",
+        "RAG & knowledge bases",
+        "Intelligent search",
+        "AI-powered SaaS",
+        "Custom AI tools"
+      ],
+      "stack": [
+        "LLM APIs",
+        "RAG",
+        "Vector search",
+        "Python",
+        "Node.js",
+        "APIs",
+        "Cloud"
+      ],
+      "related": [
+        "ai-automation",
+        "saas-development",
+        "custom-software-development"
+      ]
+    },
+    "ai-automation": {
+      "title": "AI Automation",
+      "pillar": "Business & Digital Solutions",
+      "kicker": "Make repetitive work disappear",
+      "heading": "Automate the busywork without losing control of the process.",
+      "description": "AI agents, workflow automation and system integrations designed to reduce manual handoffs and move information faster.",
+      "summary": "We map what happens today, identify the repeatable steps, then automate only where the process is stable enough to trust.",
+      "outcomes": [
+        "Less repetitive manual work",
+        "Faster handoffs between systems",
+        "Clear review points for important decisions",
+        "Better visibility into automated workflows"
+      ],
+      "deliverables": [
+        "AI agents",
+        "Workflow automation",
+        "Document processing",
+        "Support automation",
+        "Data automation",
+        "Third-party integrations"
+      ],
+      "stack": [
+        "APIs",
+        "Webhooks",
+        "LLM tools",
+        "n8n-ready flows",
+        "Python",
+        "Node.js",
+        "Databases"
+      ],
+      "related": [
+        "business-automation",
+        "ai-development",
+        "custom-software-development"
+      ]
+    },
+    "custom-software-development": {
+      "title": "Custom Software Development",
+      "pillar": "Technology & Development",
+      "kicker": "Software shaped around your operations",
+      "heading": "When off-the-shelf software is the constraint, build around the business.",
+      "description": "Custom software, internal tools, portals and operational systems designed for workflows that generic platforms cannot handle cleanly.",
+      "summary": "We translate business rules into maintainable interfaces, data models and integrations instead of forcing teams into awkward workarounds.",
+      "outcomes": [
+        "A system aligned to your real workflow",
+        "Reduced tool-switching and manual duplication",
+        "Role-based access and operational visibility",
+        "Room to extend as processes evolve"
+      ],
+      "deliverables": [
+        "Internal business systems",
+        "Admin dashboards",
+        "Customer & vendor portals",
+        "Operational tools",
+        "Custom APIs",
+        "System integrations"
+      ],
+      "stack": [
+        "PHP",
+        "C#",
+        "Java",
+        "Node.js",
+        "Python",
+        "React",
+        "SQL",
+        "Cloud"
+      ],
+      "related": [
+        "business-automation",
+        "saas-development",
+        "web-development"
+      ]
+    },
+    "ecommerce-development": {
+      "title": "E-commerce Development",
+      "pillar": "Technology & Development",
+      "kicker": "Build the store. Improve the journey. Grow the channel.",
+      "heading": "Commerce experiences connected to operations and growth.",
+      "description": "E-commerce development across Shopify, WooCommerce, WordPress, Odoo and custom platforms—with conversion and marketing in mind.",
+      "summary": "A store is more than a theme. We connect merchandising, checkout, payments, shipping, customer accounts, analytics and growth foundations.",
+      "outcomes": [
+        "Clearer product discovery and buying journeys",
+        "Reliable payment and shipping flows",
+        "Better integration with inventory and operations",
+        "A stronger base for SEO, ads and retention"
+      ],
+      "deliverables": [
+        "Store builds & redesigns",
+        "Product & collection systems",
+        "Payments & shipping",
+        "Customer accounts",
+        "Custom functionality",
+        "E-commerce automation"
+      ],
+      "stack": [
+        "Shopify",
+        "WooCommerce",
+        "WordPress",
+        "Odoo",
+        "Custom commerce",
+        "Analytics"
+      ],
+      "related": [
+        "digital-marketing",
+        "seo",
+        "ui-ux-design"
+      ]
+    },
+    "game-development": {
+      "title": "Game Development",
+      "pillar": "Technology & Development",
+      "kicker": "Interactive products with a reason to keep playing",
+      "heading": "Games and interactive experiences built around the core mechanic.",
+      "description": "2D, 3D and mobile game development, game UI and interactive experiences for products, campaigns and entertainment.",
+      "summary": "We focus first on the mechanic, feedback loop and experience, then build the technical system around what makes the interaction work.",
+      "outcomes": [
+        "A clearer playable concept",
+        "Responsive interaction and game UI",
+        "Reusable gameplay systems",
+        "A practical route from prototype to release"
+      ],
+      "deliverables": [
+        "Unity games",
+        "2D & 3D games",
+        "Mobile games",
+        "Casual games",
+        "Game UI",
+        "Interactive experiences"
+      ],
+      "stack": [
+        "Unity",
+        "C#",
+        "2D / 3D",
+        "Mobile",
+        "Animation",
+        "Game UI"
+      ],
+      "related": [
+        "graphic-design",
+        "ui-ux-design",
+        "mobile-app-development"
+      ]
+    },
+    "graphic-design": {
+      "title": "Graphic Design",
+      "pillar": "Creative & Design",
+      "kicker": "Design people recognize before they read",
+      "heading": "Visual systems for brands, products and campaigns.",
+      "description": "Graphic design for brand communication, marketing, presentations and digital channels—created as a system, not a pile of unrelated assets.",
+      "summary": "We build visual consistency across the places customers actually see you, from social posts and ads to decks and product graphics.",
+      "outcomes": [
+        "A more consistent visual presence",
+        "Creative that fits the channel and objective",
+        "Reusable design patterns for future work",
+        "Stronger clarity across marketing materials"
+      ],
+      "deliverables": [
+        "Social media graphics",
+        "Advertising creatives",
+        "Pitch decks",
+        "Brochures & profiles",
+        "Product graphics",
+        "Digital banners"
+      ],
+      "stack": [
+        "Visual systems",
+        "Campaign creative",
+        "Layout",
+        "Typography",
+        "Digital production"
+      ],
+      "related": [
+        "branding",
+        "social-media-marketing",
+        "ui-ux-design"
+      ]
+    },
+    "branding": {
+      "title": "Branding & Identity",
+      "pillar": "Creative & Design",
+      "kicker": "From a business idea to a recognizable brand",
+      "heading": "Build a brand system people can recognize and your team can actually use.",
+      "description": "Brand identity, logo systems, typography, color, guidelines and templates designed to create consistency across digital and physical touchpoints.",
+      "summary": "Good branding makes decisions easier. We create a practical visual language that can guide websites, social content, products and campaigns.",
+      "outcomes": [
+        "A recognizable visual identity",
+        "Consistent rules for future creative",
+        "Stronger credibility across touchpoints",
+        "A foundation that scales with the business"
+      ],
+      "deliverables": [
+        "Logo systems",
+        "Brand identity",
+        "Brand guidelines",
+        "Color & typography systems",
+        "Marketing templates",
+        "Social media identity"
+      ],
+      "stack": [
+        "Identity systems",
+        "Logo design",
+        "Typography",
+        "Color",
+        "Guidelines",
+        "Templates"
+      ],
+      "related": [
+        "graphic-design",
+        "ui-ux-design",
+        "digital-marketing"
+      ]
+    },
+    "ui-ux-design": {
+      "title": "UI/UX Design",
+      "pillar": "Creative & Design",
+      "kicker": "Make complex products feel obvious",
+      "heading": "Interfaces with less friction and clearer decisions.",
+      "description": "UI/UX design for websites, SaaS, apps, dashboards and e-commerce products—from flows and wireframes through responsive design systems.",
+      "summary": "We connect user goals, business rules and interface hierarchy so design makes the product easier to understand and operate.",
+      "outcomes": [
+        "Clearer information architecture",
+        "Faster user journeys with less friction",
+        "Consistent responsive components",
+        "Design decisions that development can implement"
+      ],
+      "deliverables": [
+        "User flows",
+        "Wireframes",
+        "UI systems",
+        "Prototypes",
+        "Responsive design",
+        "Conversion-focused UX"
+      ],
+      "stack": [
+        "Figma-ready systems",
+        "Wireframes",
+        "Prototyping",
+        "Design systems",
+        "Responsive UX"
+      ],
+      "related": [
+        "web-development",
+        "mobile-app-development",
+        "branding"
+      ]
+    },
+    "digital-marketing": {
+      "title": "Digital Marketing",
+      "pillar": "Digital Marketing & Growth",
+      "kicker": "Connect channels to a growth system",
+      "heading": "Marketing that works with the product—not around it.",
+      "description": "Digital strategy across search, social, content, paid media, e-commerce and conversion, connected to the websites and products customers actually use.",
+      "summary": "Because we understand both technology and marketing, we can connect campaigns to landing pages, analytics, automation and conversion paths.",
+      "outcomes": [
+        "A clearer channel and campaign strategy",
+        "Better connection between creative and landing experience",
+        "Measurement tied to business goals",
+        "A repeatable improvement loop"
+      ],
+      "deliverables": [
+        "Marketing strategy",
+        "Campaign management",
+        "E-commerce marketing",
+        "Lead generation",
+        "Analytics & reporting",
+        "Conversion optimization"
+      ],
+      "stack": [
+        "Analytics",
+        "Search",
+        "Social",
+        "Paid media",
+        "Email",
+        "Conversion"
+      ],
+      "related": [
+        "seo",
+        "social-media-marketing",
+        "paid-advertising"
+      ]
+    },
+    "seo": {
+      "title": "SEO",
+      "pillar": "Digital Marketing & Growth",
+      "kicker": "Build durable search visibility",
+      "heading": "SEO foundations that compound instead of chasing shortcuts.",
+      "description": "Technical SEO, on-page optimization, keyword strategy and content improvements designed for sustainable search visibility.",
+      "summary": "We improve discoverability by connecting site structure, technical performance, search intent and useful content—without unrealistic ranking guarantees.",
+      "outcomes": [
+        "Cleaner technical search foundations",
+        "Pages aligned to relevant search intent",
+        "Improved crawlability and site structure",
+        "Measurement for ongoing optimization"
+      ],
+      "deliverables": [
+        "Technical SEO",
+        "On-page SEO",
+        "Keyword research",
+        "SEO audits",
+        "Local SEO",
+        "E-commerce SEO"
+      ],
+      "stack": [
+        "Technical audits",
+        "Search intent",
+        "Metadata",
+        "Schema",
+        "Performance",
+        "Analytics"
+      ],
+      "related": [
+        "web-development",
+        "content-marketing",
+        "digital-marketing"
+      ]
+    },
+    "social-media-marketing": {
+      "title": "Social Media Marketing",
+      "pillar": "Digital Marketing & Growth",
+      "kicker": "Build a consistent presence, not random posts",
+      "heading": "Social media that looks, sounds and behaves like one brand.",
+      "description": "Strategy, management, campaign creative, community engagement and reporting across the social channels that matter to your audience.",
+      "summary": "We connect content planning, brand consistency, community interaction and paid support so social contributes to broader marketing goals.",
+      "outcomes": [
+        "A consistent publishing and campaign rhythm",
+        "Clearer brand voice and visual presence",
+        "More intentional audience engagement",
+        "Reporting that informs the next cycle"
+      ],
+      "deliverables": [
+        "Social strategy",
+        "Content planning",
+        "Social management",
+        "Campaign creative",
+        "Community engagement",
+        "Performance reporting"
+      ],
+      "stack": [
+        "Instagram",
+        "Facebook",
+        "LinkedIn",
+        "TikTok",
+        "YouTube",
+        "X"
+      ],
+      "related": [
+        "graphic-design",
+        "paid-advertising",
+        "digital-marketing"
+      ]
+    },
+    "paid-advertising": {
+      "title": "Paid Advertising",
+      "pillar": "Digital Marketing & Growth",
+      "kicker": "Traffic is only useful if the journey converts",
+      "heading": "Paid campaigns connected to creative, landing pages and measurement.",
+      "description": "Google and Meta advertising, retargeting and performance campaigns built around clear offers, tracking and conversion paths.",
+      "summary": "We treat the ad, landing experience, analytics and follow-up as one system because isolated media buying rarely fixes a weak journey.",
+      "outcomes": [
+        "Clearer campaign structure and targeting",
+        "Creative aligned to the offer",
+        "Landing pages built for the traffic source",
+        "Performance data that supports iteration"
+      ],
+      "deliverables": [
+        "Google Ads",
+        "Meta Ads",
+        "Retargeting",
+        "Lead generation campaigns",
+        "E-commerce campaigns",
+        "Performance reporting"
+      ],
+      "stack": [
+        "Google Ads",
+        "Meta Ads",
+        "YouTube Ads",
+        "Analytics",
+        "Tracking",
+        "Landing pages"
+      ],
+      "related": [
+        "digital-marketing",
+        "social-media-marketing",
+        "content-marketing"
+      ]
+    },
+    "content-marketing": {
+      "title": "Content Marketing",
+      "pillar": "Digital Marketing & Growth",
+      "kicker": "Give the audience a reason to pay attention",
+      "heading": "Content built around questions, decisions and conversion moments.",
+      "description": "Website, search, social, email and campaign content designed to attract attention, explain value and support the customer journey.",
+      "summary": "We map content to what people need to understand before they act, then adapt the message to the channel and format.",
+      "outcomes": [
+        "Clearer product and service messaging",
+        "Content aligned to search and campaign intent",
+        "Reusable ideas across multiple channels",
+        "A stronger path from attention to action"
+      ],
+      "deliverables": [
+        "Website content",
+        "Blog content",
+        "Social content",
+        "Marketing copy",
+        "Email campaigns",
+        "Landing page copy"
+      ],
+      "stack": [
+        "Messaging",
+        "SEO content",
+        "Social",
+        "Email",
+        "Landing pages",
+        "Campaign copy"
+      ],
+      "related": [
+        "seo",
+        "social-media-marketing",
+        "digital-marketing"
+      ]
+    },
+    "business-automation": {
+      "title": "Business Automation",
+      "pillar": "Business & Digital Solutions",
+      "kicker": "Turn fragmented tasks into connected workflows",
+      "heading": "Operational systems that move work forward automatically.",
+      "description": "Workflow automation, CRM integrations, dashboards, portals and internal systems designed around how your team actually works.",
+      "summary": "We identify the repetitive steps, data handoffs and visibility gaps, then connect systems in a way your team can understand and control.",
+      "outcomes": [
+        "Fewer manual handoffs",
+        "Better visibility into operational status",
+        "Connected data across tools",
+        "More time for work that requires judgment"
+      ],
+      "deliverables": [
+        "Workflow automation",
+        "CRM solutions",
+        "ERP-style systems",
+        "Business dashboards",
+        "Customer portals",
+        "Third-party integrations"
+      ],
+      "stack": [
+        "APIs",
+        "Webhooks",
+        "Dashboards",
+        "CRM",
+        "Databases",
+        "Automation"
+      ],
+      "related": [
+        "ai-automation",
+        "custom-software-development",
+        "saas-development"
+      ]
+    }
+  },
+  "groups": {
+    "Technology & Development": [
+      "web-development",
+      "saas-development",
+      "mobile-app-development",
+      "ai-development",
+      "custom-software-development",
+      "ecommerce-development",
+      "game-development"
+    ],
+    "Creative & Design": [
+      "graphic-design",
+      "branding",
+      "ui-ux-design"
+    ],
+    "Digital Marketing & Growth": [
+      "digital-marketing",
+      "seo",
+      "social-media-marketing",
+      "paid-advertising",
+      "content-marketing"
+    ],
+    "Business & Digital Solutions": [
+      "ai-automation",
+      "business-automation"
+    ]
+  },
+  "projects": [
+    {
+      "type": "Internal Project",
+      "category": "Operations / AI",
+      "title": "Operations Intelligence Console",
+      "slug": "operations-intelligence",
+      "copy": "A concept for turning fragmented operational signals into a focused decision dashboard.",
+      "tags": [
+        "Dashboard",
+        "AI",
+        "Web platform"
+      ]
+    },
+    {
+      "type": "Concept Project",
+      "category": "E-commerce / Growth",
+      "title": "Commerce Growth System",
+      "slug": "commerce-growth",
+      "copy": "A connected store, analytics and campaign experience showing how build and growth can work as one system.",
+      "tags": [
+        "E-commerce",
+        "Analytics",
+        "Growth"
+      ]
+    },
+    {
+      "type": "Concept Project",
+      "category": "Brand / Product",
+      "title": "Northstar Identity System",
+      "slug": "northstar-brand",
+      "copy": "A modular identity and product interface system built to stay consistent across marketing and product.",
+      "tags": [
+        "Branding",
+        "UI/UX",
+        "Creative"
+      ]
+    },
+    {
+      "type": "Internal Project",
+      "category": "Automation / SaaS",
+      "title": "Workflow Control Room",
+      "slug": "workflow-control-room",
+      "copy": "A visual prototype for managing automated workflows, exceptions and human approvals from one place.",
+      "tags": [
+        "Automation",
+        "SaaS",
+        "AI"
+      ]
+    }
+  ],
+  "lifecycle": [
+    [
+      "01",
+      "IDEA",
+      "Understand the business, audience and problem."
+    ],
+    [
+      "02",
+      "STRATEGY",
+      "Choose the product, technology and growth approach."
+    ],
+    [
+      "03",
+      "DESIGN",
+      "Shape the brand, UX and visual system."
+    ],
+    [
+      "04",
+      "DEVELOP",
+      "Build the website, app, software or platform."
+    ],
+    [
+      "05",
+      "LAUNCH",
+      "QA, deploy and prepare the product for real users."
+    ],
+    [
+      "06",
+      "MARKET",
+      "Create demand through search, social, content and campaigns."
+    ],
+    [
+      "07",
+      "AUTOMATE",
+      "Connect systems and reduce repetitive work."
+    ],
+    [
+      "08",
+      "GROW",
+      "Measure, improve and scale what works."
+    ]
+  ],
+  "tech": {
+    "Web": [
+      "PHP",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Node.js",
+      "Python",
+      "C#",
+      "Java"
+    ],
+    "Mobile": [
+      "Swift",
+      "SwiftUI",
+      "Java / Android",
+      "Flutter",
+      "React Native"
+    ],
+    "Commerce & CMS": [
+      "Shopify",
+      "WooCommerce",
+      "WordPress",
+      "Wix",
+      "Odoo"
+    ],
+    "AI & Automation": [
+      "LLM APIs",
+      "RAG",
+      "AI Agents",
+      "Webhooks",
+      "Workflow Automation",
+      "Integrations"
+    ],
+    "Data & Cloud": [
+      "SQL",
+      "PostgreSQL",
+      "Firebase",
+      "REST APIs",
+      "Cloud",
+      "Analytics"
+    ],
+    "Creative & Growth": [
+      "UI/UX",
+      "Brand Systems",
+      "SEO",
+      "Social",
+      "Paid Media",
+      "Content"
+    ]
+  },
+  "liveProjects": [
+    {
+      "slug": "trendyz-tech",
+      "title": "Trendyz Tech",
+      "url": "https://www.trendyztech.com/",
+      "category": "E-commerce",
+      "platform": "Shopify",
+      "role": "Shopify Store Development",
+      "tags": [
+        "Shopify",
+        "E-commerce",
+        "Storefront"
+      ],
+      "featured": true,
+      "type": "Live Project",
+      "copy": "A live Shopify storefront developed for a consumer technology business, focused on product discovery, responsive shopping and a polished e-commerce experience."
+    },
+    {
+      "slug": "sakeena",
+      "title": "Sakeena",
+      "url": "https://smhb0333.github.io/sakeena/",
+      "category": "Website",
+      "platform": "Custom Web",
+      "role": "Website Design & Development",
+      "tags": [
+        "Responsive Website",
+        "UI Implementation",
+        "Front-end"
+      ],
+      "featured": true,
+      "type": "Live Project",
+      "copy": "A responsive custom website focused on clear presentation, polished interaction and a consistent experience across desktop and mobile."
+    },
+    {
+      "slug": "smhb",
+      "title": "SMHB",
+      "url": "https://smhb0333.github.io/smhb/",
+      "category": "Website",
+      "platform": "Custom Web",
+      "role": "Website Design & Development",
+      "tags": [
+        "Custom Website",
+        "Responsive UI",
+        "Front-end"
+      ],
+      "featured": true,
+      "type": "Live Project",
+      "copy": "A custom live website built around a clean, modern front-end experience with responsive behavior across devices."
+    },
+    {
+      "slug": "portfolio",
+      "title": "Portfolio",
+      "url": "https://smhb0333.github.io/portfolio/",
+      "category": "Portfolio",
+      "platform": "Custom Web",
+      "role": "Portfolio Website Development",
+      "tags": [
+        "Portfolio",
+        "Responsive Design",
+        "Personal Brand"
+      ],
+      "featured": true,
+      "type": "Live Project",
+      "copy": "A personal portfolio experience built to present profile, skills and project work through a focused responsive interface."
+    },
+    {
+      "slug": "shb",
+      "title": "SHB",
+      "url": "https://smhb0333.github.io/shb/",
+      "category": "Website",
+      "platform": "GitHub Pages",
+      "role": "Website Design & Development",
+      "tags": [
+        "Website",
+        "Responsive",
+        "Live"
+      ],
+      "featured": false,
+      "type": "Live Project",
+      "copy": "A published responsive website project with a clean front-end presentation and direct live access."
+    },
+    {
+      "slug": "vellorien",
+      "title": "Vellorien",
+      "url": "https://smhb0333.github.io/vellorien/",
+      "category": "Website",
+      "platform": "GitHub Pages",
+      "role": "Website Design & Development",
+      "tags": [
+        "Website",
+        "Responsive",
+        "Live"
+      ],
+      "featured": false,
+      "type": "Live Project",
+      "copy": "A published responsive website project with a modern front-end experience and direct live access."
+    },
+    {
+      "slug": "counter",
+      "title": "Counter",
+      "url": "https://smhb0333.github.io/counter/",
+      "category": "Web App",
+      "platform": "GitHub Pages",
+      "role": "Web App Development",
+      "tags": [
+        "Web App",
+        "Interactive",
+        "Responsive UI"
+      ],
+      "featured": false,
+      "type": "Live Project",
+      "copy": "An interactive browser-based web application published as a live project."
+    },
+    {
+      "slug": "wren-by-nimra",
+      "title": "Wren by Nimra",
+      "url": "https://smhb0333.github.io/wrenbynimra/",
+      "category": "Website",
+      "platform": "GitHub Pages",
+      "role": "Website Design & Development",
+      "tags": [
+        "Website",
+        "Responsive",
+        "Live"
+      ],
+      "featured": false,
+      "type": "Live Project",
+      "copy": "A live responsive website project designed for a clean and accessible browser experience."
+    },
+    {
+      "slug": "resume-builder",
+      "title": "Resume Builder",
+      "url": "https://smhb0333.github.io/resumebuilder/",
+      "category": "Web App",
+      "platform": "GitHub Pages",
+      "role": "Web App Development",
+      "tags": [
+        "Web App",
+        "Utility",
+        "Responsive UI"
+      ],
+      "featured": false,
+      "type": "Live Project",
+      "copy": "A live browser-based resume builder focused on practical interaction and responsive usability."
+    },
+    {
+      "slug": "jactmak",
+      "title": "Jactmak",
+      "url": "https://smhb0333.github.io/jactmak/",
+      "category": "Website",
+      "platform": "GitHub Pages",
+      "role": "Website Design & Development",
+      "tags": [
+        "Website",
+        "Responsive",
+        "Live"
+      ],
+      "featured": false,
+      "type": "Live Project",
+      "copy": "A live website project published with a responsive front-end experience."
+    },
+    {
+      "slug": "lumea",
+      "title": "Lumea",
+      "url": "https://smhb0333.github.io/lumea/",
+      "category": "Website",
+      "platform": "GitHub Pages",
+      "role": "Website Design & Development",
+      "tags": [
+        "Website",
+        "Responsive",
+        "Live"
+      ],
+      "featured": false,
+      "type": "Live Project",
+      "copy": "A live website project with a clean responsive interface and direct published access."
+    },
+    {
+      "slug": "novale",
+      "title": "Novale",
+      "url": "https://smhb0333.github.io/novale/",
+      "category": "Website",
+      "platform": "GitHub Pages",
+      "role": "Website Design & Development",
+      "tags": [
+        "Website",
+        "Responsive",
+        "Live"
+      ],
+      "featured": false,
+      "type": "Live Project",
+      "copy": "A published responsive website project built as part of the KHIDevs project library."
+    },
+    {
+      "slug": "nova",
+      "title": "Nova",
+      "url": "https://smhb0333.github.io/nova/",
+      "category": "Website",
+      "platform": "GitHub Pages",
+      "role": "Website Design & Development",
+      "tags": [
+        "Website",
+        "Responsive",
+        "Live"
+      ],
+      "featured": false,
+      "type": "Live Project",
+      "copy": "A published responsive website project with a modern browser-based interface."
+    },
+    {
+      "slug": "aurelia",
+      "title": "Aurelia",
+      "url": "https://smhb0333.github.io/aurelia/",
+      "category": "Website",
+      "platform": "GitHub Pages",
+      "role": "Website Design & Development",
+      "tags": [
+        "Website",
+        "Responsive",
+        "Live"
+      ],
+      "featured": false,
+      "type": "Live Project",
+      "copy": "A live responsive website project presented as part of the agency portfolio."
+    },
+    {
+      "slug": "my-clothing-bazar",
+      "title": "My Clothing Bazar",
+      "url": "https://smhb0333.github.io/myclothingbazar/",
+      "category": "E-commerce",
+      "platform": "GitHub Pages",
+      "role": "E-commerce Development",
+      "tags": [
+        "E-commerce",
+        "Storefront",
+        "Responsive"
+      ],
+      "featured": false,
+      "type": "Live Project",
+      "copy": "A live e-commerce website project with a responsive storefront-style experience."
+    }
+  ],
+  "serviceCatalog": {
+    "Technology & Development": [
+      "Website Development",
+      "Web Application Development",
+      "SaaS Development",
+      "Custom Software Development",
+      "Mobile App Development",
+      "Native iOS Development",
+      "Native Android Development",
+      "Cross-Platform App Development",
+      "AI Development",
+      "AI Automation",
+      "API & Backend Development",
+      "Dashboards & Control Panels",
+      "Business Portals",
+      "E-commerce Development",
+      "Shopify Development",
+      "WooCommerce Development",
+      "WordPress Development",
+      "No-Code / Low-Code Development",
+      "Game Development",
+      "Cloud & Deployment",
+      "Third-Party API Integrations",
+      "Website Maintenance & Support"
+    ],
+    "Creative & Design": [
+      "Graphic Design",
+      "UI/UX Design",
+      "Website UI Design",
+      "Mobile App UI Design",
+      "Brand Identity",
+      "Logo Design",
+      "Social Media Design",
+      "Marketing Creatives",
+      "Presentation Design",
+      "Pitch Deck Design",
+      "Advertising Creatives",
+      "Motion Graphics",
+      "2D Animation",
+      "Video Editing",
+      "Short-Form Video",
+      "Product Design",
+      "Creative Content",
+      "Packaging Design",
+      "Business Stationery",
+      "Infographics",
+      "Digital Banners"
+    ],
+    "Digital Marketing & Growth": [
+      "Digital Marketing Strategy",
+      "Social Media Marketing",
+      "Social Media Management",
+      "Content Planning",
+      "Community Engagement",
+      "Search Engine Optimization (SEO)",
+      "Technical SEO",
+      "On-Page SEO",
+      "Local SEO",
+      "E-commerce SEO",
+      "Search Engine Marketing (SEM)",
+      "Google Ads",
+      "Meta Ads",
+      "Facebook & Instagram Ads",
+      "YouTube Ads",
+      "Paid Advertising",
+      "Retargeting",
+      "Content Marketing",
+      "Email Marketing",
+      "Lead Generation",
+      "Conversion Optimization",
+      "Brand Marketing",
+      "E-commerce Marketing",
+      "Campaign Management",
+      "Marketing Analytics & Reporting",
+      "Performance Reporting"
+    ],
+    "Business & Digital Solutions": [
+      "Business Automation",
+      "Workflow Automation",
+      "AI Agents",
+      "CRM Solutions",
+      "ERP Solutions",
+      "Business Dashboards",
+      "Analytics Dashboards",
+      "Customer Portals",
+      "Vendor Portals",
+      "Internal Business Systems",
+      "Inventory Management Systems",
+      "Employee Management Systems",
+      "Booking Systems",
+      "Financial Dashboards",
+      "E-commerce Solutions",
+      "Third-Party Integrations",
+      "Digital Transformation",
+      "MVP Development",
+      "Product Development",
+      "Startup Solutions",
+      "Customer Support Automation",
+      "Document Processing Automation",
+      "Data Automation",
+      "Maintenance & Support"
+    ]
+  }
+}

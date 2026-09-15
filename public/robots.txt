@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://smhb0333.github.io/khidevs/sitemap.xml

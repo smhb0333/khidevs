@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#080b10" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="application-name" content="KHIDevs" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="KHIDevs" />
+    <meta name="description" content="KHIDevs is a full-service digital agency for websites, Shopify and e-commerce, software, apps, AI automation, branding, design, SEO, social media and business systems." />
+    <link rel="icon" href="%BASE_URL%assets/img/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" sizes="180x180" href="%BASE_URL%assets/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="%BASE_URL%site.webmanifest" />
+    <link rel="sitemap" type="application/xml" href="%BASE_URL%sitemap.xml" />
+    <title>KHIDevs — Build. Design. Automate. Grow.</title>
+  </head>
+  <body>
+    <script>
+      // Restore a clean React route if GitHub Pages sends an unknown SPA URL through 404.html.
+      (function(){
+        var params=new URLSearchParams(window.location.search);
+        var route=params.get('route');
+        if(route){
+          var base=(document.querySelector('base')&&document.querySelector('base').pathname)||'/khidevs/';
+          if(base.charAt(base.length-1)!=='/') base+='/';
+          var clean=base.replace(/\/$/,'')+(route.charAt(0)==='/'?route:'/'+route);
+          window.history.replaceState(null,'',clean);
+        }
+      })();
+      try{var t=localStorage.getItem('khidevs-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
